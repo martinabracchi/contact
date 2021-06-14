@@ -93,4 +93,9 @@ margin-right:10%;
   top:0;
   left: 0;
   padding: 10px;
+  z-index: 20;
+}
+
+iframe{
+  z-index: 10;
 }
