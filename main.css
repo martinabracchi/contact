@@ -2,6 +2,11 @@
   font-family: Karelia;
   src: url('assets/KareliaTrial-Outtakes.otf');
 }
+
+@font-face{
+  font-family: px-grotesk;
+  src: url('assets/Px-Grotesk-Regular.ttf')
+}
 body{
   width: 100vw;
   height: 100vh;
@@ -9,7 +14,15 @@ body{
   background-color: black;
   font-family: Karelia;
   }
-
+marquee{
+  color: white;
+bottom: 0;
+  z-index: 10;
+  position: absolute;
+  padding: 10px;
+  border-top: solid 1px white;
+  font-family: px-grotesk;
+}
 
   #container{
   z-index: 5;
